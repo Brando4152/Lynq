@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import { createClient } from "@supabase/supabase-js";
 
 /* ─── SUPABASE ─────────────────────────────────────────── */
-const SUPABASE_URL = "https://uxqonldbgljqvhgbjoha.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV4cW9ubGRiZ2xqcXZoZ2Jqb2hhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2MzQ2NTMsImV4cCI6MjA4NzIxMDY1M30.yD_kWL_jdd6tPO4GOHxNnqhzIrnOdwN8dLSYu_vQtKY";
+const SUPABASE_URL = "REPLACE";
+const SUPABASE_ANON_KEY = "REPLACE";
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 /* ─── SOCIAL ICONS ─────────────────────────────────────── */
